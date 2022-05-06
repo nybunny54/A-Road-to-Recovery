@@ -1,0 +1,42 @@
+img {
+    position: absolute ;
+    height : 100%;
+    width: 100%;
+    
+}
+h1 {
+    font-size: 3rem;
+    color: #F5F5DC;
+}
+.btn-primary {
+    margin: 20px auto;
+    border: 3px solid 556B2F;
+    border-radius: 200px;
+    padding: 15px 32px;
+    font-size: 16px;
+    color: black;
+    background-color: #F5F5DC;
+    opacity: 1;
+    text-transform: uppercase;
+}
+
+.text-center{
+    position: absolute;
+    top: 50%;
+    left: 38%;
+    transform: translate (-50%,-50%);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: white;
+
+}
+html { 
+    background: url(road.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .buffer {
+      height: 3rem;
+  }
